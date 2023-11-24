@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #eaeef4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller.Quiz.StartQuizController">
+   <children>
+      <Label layoutX="117.0" layoutY="60.0" text="Test Your Grammar Skills with Multiple-CHoice Quizzes">
+         <font>
+            <Font name="Dubai Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="161.0" text="Dive into a world of engaging grammar quizzes with this interactive quiz">
+         <font>
+            <Font name="Dubai Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="187.0" text="Each time you start the game, ten quizzes will be randomly chosed from a ">
+         <font>
+            <Font name="Dubai Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="213.0" text="comprehensive collection of grammar questions. Each quiz will present">
+         <font>
+            <Font name="Dubai Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="189.0" layoutY="239.0" text="you with multipe-choice questions, allowing you to test your understanding">
+         <font>
+            <Font name="Dubai Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="268.0" text="various grammatical concepts and rules">
+         <font>
+            <Font name="Dubai Regular" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="startquizbtn" layoutX="349.0" layoutY="352.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px; -fx-border-radius: 5px; -fx-border-color: #353a56; -fx-border-width: 1.5;" text="Quiz Start">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

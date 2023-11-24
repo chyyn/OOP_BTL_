@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #eaeef4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller.Quiz.EndQuizController">
+    <children>
+        <ImageView fitHeight="161.0" fitWidth="166.0" layoutX="280.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../PNG/record.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="251.0" fitWidth="248.0" layoutX="236.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../PNG/laurel.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="144.0" fitWidth="122.0" layoutX="299.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../PNG/trophy.png" />
+            </image>
+        </ImageView>
+        <AnchorPane fx:id="firstresult" layoutX="147.0" layoutY="327.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: Green;">
+            <children>
+                <Label alignment="CENTER" layoutY="-2.0" prefHeight="46.0" prefWidth="54.0" text="1">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="secondresult" layoutX="247.0" layoutY="327.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="2">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="thirdresult" layoutX="344.0" layoutY="327.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" layoutX="-1.0" layoutY="1.0" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="3">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="fourthresult" layoutX="441.0" layoutY="327.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="4">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="fifthresult" layoutX="537.0" layoutY="327.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" layoutX="-1.0" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="5">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="sixthresult" layoutX="147.0" layoutY="395.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="6">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="seventhresult" layoutX="247.0" layoutY="395.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="7">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="eighthresult" layoutX="344.0" layoutY="395.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" layoutX="1.0" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="8">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="ninethresult" layoutX="441.0" layoutY="395.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" layoutX="1.0" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="9">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="tenthresult" layoutX="537.0" layoutY="395.0" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #353A56;">
+            <children>
+                <Label alignment="CENTER" layoutX="-1.0" prefHeight="46.0" prefWidth="54.0" style="-fx-background-color: Red;" text="10">
+                    <font>
+                        <Font name="Leelawadee UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <Label fx:id="resultlabel" layoutX="150.0" layoutY="248.0" text="Result">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="correctanswerlabel" layoutX="303.0" layoutY="248.0" text="CorrectAnswer">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="wronganswerlabel" layoutX="506.0" layoutY="248.0" text="WrongAnswer">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

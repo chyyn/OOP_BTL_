@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller.Quiz.QuizController">
+    <children>
+        <Label fx:id="questionLabel" layoutX="76.0" layoutY="63.0" maxWidth="600.0" prefWidth="530.0" text="Question" wrapText="true">
+            <font>
+                <Font name="Segoe UI Black" size="30.0" />
+            </font></Label>
+        <JFXButton fx:id="answerButtonA" layoutX="76.0" layoutY="240.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #5D638E; -fx-background-radius: 10px; border-ra: 10px;" text="A" textFill="WHITE">
+            <font>
+                <Font name="Dubai Regular" size="18.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="answerButtonB" layoutX="398.0" layoutY="240.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #737BB2; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="B" textFill="WHITE">
+            <font>
+                <Font name="Dubai Regular" size="18.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="answerButtonC" layoutX="76.0" layoutY="354.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #737BB2; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="C" textFill="WHITE">
+            <font>
+                <Font name="Dubai Regular" size="18.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="answerButtonD" layoutX="398.0" layoutY="354.0" prefHeight="80.0" prefWidth="300.0" style="-fx-background-color: #5D638E; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="D" textFill="WHITE">
+            <font>
+                <Font name="Dubai Regular" size="18.0" />
+            </font>
+        </JFXButton>
+    </children>
+</AnchorPane>
