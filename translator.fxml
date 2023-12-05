@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="920.0" style="-fx-background-color: #eaeef4;" stylesheets="@../Style/daymode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller.TranslatorController">
+   <children>
+      <AnchorPane layoutX="109.0" layoutY="14.0" prefHeight="58.0" prefWidth="702.0" style="-fx-background-color: #464B70; -fx-background-radius: 32px;" AnchorPane.bottomAnchor="629.1999999999999" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="109.39999999999998" AnchorPane.topAnchor="14.0">
+         <children>
+            <ImageView fx:id="swap" fitHeight="32.0" fitWidth="32.0" layoutX="335.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../PNG/swap.png" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="fromLanguage" layoutX="58.0" layoutY="7.0" prefHeight="30.0" prefWidth="233.0" promptText="Select language" style="-fx-background-color: #464B70;" />
+            <ComboBox fx:id="toLanguage" layoutX="465.0" layoutY="7.0" prefHeight="41.0" prefWidth="222.0" promptText="Select language" style="-fx-background-color: #464B70 #464B70;" styleClass="combo-box" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="fromtxt" layoutX="60.0" layoutY="86.0" prefHeight="542.0" prefWidth="410.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16px; -fx-border-color: #353A56; -fx-border-radius: 16px; -fx-border-width: 1.3;" AnchorPane.leftAnchor="40.0">
+         <children>
+            <TextField fx:id="inputtxt" alignment="TOP_LEFT" layoutX="16.0" layoutY="16.0" prefHeight="474.0" prefWidth="383.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16px;" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="voiceFromLanguage" fitHeight="40.0" fitWidth="40.0" layoutX="25.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../PNG/speaker.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane fx:id="totxt" layoutX="403.0" layoutY="86.0" prefHeight="542.0" prefWidth="410.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16px; -fx-border-color: #353A56; -fx-border-radius: 16px; -fx-border-width: 1.3;" AnchorPane.rightAnchor="40.0">
+         <children>
+            <TextField fx:id="outputtxt" alignment="TOP_LEFT" editable="false" layoutX="16.0" layoutY="16.0" prefHeight="470.0" prefWidth="383.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16px;" AnchorPane.bottomAnchor="59.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="voiceToLanguage" fitHeight="40.0" fitWidth="40.0" layoutX="25.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../PNG/speaker.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <JFXButton fx:id="copyto" layoutX="493.0" layoutY="634.0" onMouseClicked="#copyText" prefHeight="62.0" prefWidth="234.0" styleClass="copy-button" text="Copy text to Clipboard" />
+      <JFXButton fx:id="copyfrom" layoutX="57.0" layoutY="635.0" onMouseClicked="#copyText" prefHeight="57.0" prefWidth="234.0" styleClass="copy-button" text="Copy text to Clipboard" />
+      <ImageView fx:id="translatebtn" fitHeight="49.0" fitWidth="54.0" layoutX="823.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../PNG/translate.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
